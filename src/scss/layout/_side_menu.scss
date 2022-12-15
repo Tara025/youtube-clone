@@ -1,0 +1,43 @@
+.side-menu{
+      
+    
+    padding-left: 10px;
+    width: 20%;
+    height: 100%;
+    
+    left: -250px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content:center;
+    background-color: blueviolet;
+    text-decoration: none;
+    
+    ul{
+        list-style: none;
+   
+   
+}
+a{
+    color: lightgray;
+    text-decoration: none;
+}
+
+}
+
+// HH-Menü
+
+#toggle-btn{
+    // display: none;
+}
+
+#toggle-btn:checked~aside{
+    display: block;
+    left: 0px;
+    background-color: green;
+}

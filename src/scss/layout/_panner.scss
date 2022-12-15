@@ -1,0 +1,13 @@
+.panner {
+  @include flex-setup(flex-end, flex-start);
+  // border: 2px solid red;
+  background-color: $youtube-light-black;
+ 
+
+  img {
+   
+    width: 100%;
+    height: 100%;
+  }
+  
+}
