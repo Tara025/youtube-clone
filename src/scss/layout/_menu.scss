@@ -24,9 +24,9 @@ header {
         height: 0.1rem;
         margin: 0.1rem;
 
-        // // input [type="checkbox"]{
-        // //   display: none;
-        // }
+        input [type="checkbox"]{
+          display: none;
+        }
   
       }
     }
@@ -39,7 +39,7 @@ header {
     }
   }
   form {
-    width: 20%;
+    width: 15%;
     display: flex;
     justify-content: space-evenly;
     input[type="text"] {
@@ -57,8 +57,7 @@ header {
     .mic {
       width: 1rem;
       height: 1rem;
-      // border-radius: 50%;
-      // background-color: rgba(0, 0, 0, 0.839);
+     
     }
   }
 
@@ -83,6 +82,7 @@ header {
      }
  
  }     
+ 
 
   // .user-info {
   //   width: 10%;
@@ -97,7 +97,7 @@ header {
   .side-menu ul li {
     height: min-content;
     width: 100%;
-    background-color: var(--background-color);
+    background-color: $youtube-light-black;
 
     /* display: block; */
     display: none;
@@ -112,7 +112,7 @@ header {
     padding: 1.3rem 0;
   }
   /* check click on hamburgermenü */
-  #toggle-btn:checked ~ ul {
+  #toggle-btn:checked ~ .side-menu {
     display: block;
   }
 }
