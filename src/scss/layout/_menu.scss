@@ -1,119 +1,26 @@
-header {
-  width: 100vw;
-  height: 5vh;
-  background-color: $youtube-light-black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  .youtube {
-    width: 30%;
+nav{
+    background-color:orange;
+    width:100% ;
+    height: 50px;
+    justify-content: space-between;
     display: flex;
-    flex-direction: reverse;
-
-    .hamburger {
-      
-      margin-left: 5px;
-      width: 15%;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+form{
+    width: 50%;
       display: flex;
-      justify-content:center;
-      align-items: center;
-      flex-direction: column;
-      div {
-        background-color: white;
-        width: 1rem;
-        height: 0.1rem;
-        margin: 0.1rem;
-
-        input [type="checkbox"]{
-          display: none;
-        }
-  
-      }
-    }
-    .logo {
-       img{
-        display: flex;
-        justify-content: center;
-        width: 100px;
-       }
-    }
-  }
-  form {
-    width: 15%;
-    display: flex;
-    justify-content: space-evenly;
-    input[type="text"] {
-      padding: 3px 9px;
-      border-radius: 0.7rem 0 0 0.7rem;
-      background-color: black;
-      border: 1px solid rgba(0, 0, 0, 0.839);
-    }
-    input[type="button"] {
-      padding: 3px 9px;
-      border-radius: 0 0.7rem 0.7rem 0;
-      border: 1px solid rgba(0, 0, 0, 0.839);
-      background-color: rgba(0, 0, 0, 0.839);
-    }
-    .mic {
-      width: 1rem;
-      height: 1rem;
-     
-    }
-  }
-
-  .icon-bar-nav{
+      justify-content: center;
+      height: 35px;
+      margin-top: 6px;
+}
+.logo{
+    
+    position: relative;
+   bottom: 30px;
+    left: 40px;
+    width: 100px;
    
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    a{
-       color: lightgray;
-    }
-
- }
-
- .profile{
-     img{
-      width: 30px;
-      margin-right: 2px;
-      border: 1px solid $youtube-darkblack;
-      border-radius: 50%;
-     }
- 
- }     
- 
-
-  // .user-info {
-  //   width: 10%;
-  //   border: 2px solid red;
-  // }
 }
-
-@media (max-width: 850px) {
-  .toggle-btn {
-    display: flex;
-  }
-  .side-menu ul li {
-    height: min-content;
-    width: 100%;
-    background-color: $youtube-light-black;
-
-    /* display: block; */
-    display: none;
-    position: absolute;
-    top: 3.5rem;
-  }
-  .side-menu ul li {
-    height: min-content;
-    width: 100%;
-  }
-  .side-menu li a {
-    padding: 1.3rem 0;
-  }
-  /* check click on hamburgermenü */
-  #toggle-btn:checked ~ .side-menu {
-    display: block;
-  }
-}
-
