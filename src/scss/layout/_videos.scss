@@ -81,14 +81,9 @@ h1{
       width:95%;
       display: flex;
     
-    .pic{
-      margin-top: 10px;         
-      
-      img{
-      border-radius: 50%;
-    }
+    
 
-  }    
+    
     .paris{
       font-family: Arial, Helvetica, sans-serif;
       position: relative;
@@ -122,13 +117,10 @@ h1{
         text-decoration: none;
         font-weight: bold;
       }
-      
-      
-      }
-     
-      
-      }
+            
+        }
     }
+ }
      ul, li{
       display: flex;
       flex-direction: row-wrap;
@@ -139,9 +131,6 @@ h1{
       font-family: Arial, Helvetica, sans-serif;
       color: lightgray;
       background-color: $youtube-darkblack;
-
-      
-      
      }
 
      article{
