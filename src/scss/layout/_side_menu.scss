@@ -1,16 +1,28 @@
-.side-menu{
+// <<<<<<< HEAD
+// .side-menu{
       
-    margin:20px;
+//     margin:20px;
+//     padding-left: 10px;
+//     width: 20%;
+//     height: 100%;
+//     background-color: red;
+
+.side-menu{ 
+
+    
+    position: relative;
+    margin:0px;
     padding-left: 10px;
     width: 20%;
     height: 100%;
-    background-color: red;
+    left: -500px;
+
     
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
 
     color: #f5f5f5;
-    display: flex;
+   
     flex-direction: column;
     
     
@@ -42,13 +54,12 @@
    
 }
 
-
 }
 
 // HH-Menü
 
 #toggle-btn{
-    display: none;
+    // display: none;
 }
 
 #toggle-btn:checked~.side-menu{
