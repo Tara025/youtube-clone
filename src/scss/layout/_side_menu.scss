@@ -1,21 +1,24 @@
 .side-menu{ 
     
-    width: 20%;
-    height: 100%;
+    margin-top: 20px;
+    width: 15%;
+    height: auto;
         
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    border: 2px solid red;
     color: #f5f5f5;
    
     flex-direction: column;
-         
-    background-color: $youtube-light-black;
     text-decoration: none;
     
     ul{
         
         list-style: none;
+
+        li{
+            
+            padding: 10px;
+        }
      
         a{
         display: flex;
@@ -39,14 +42,14 @@
 
 }
 
-// HH-Menü
+// HH-Menü (funktioniert nicht)
 
-// #toggle-btn{
-//     // display: none;
-// }
+#toggle-btn{
+    display: none;
+}
 
-// #toggle-btn:checked~.side-menu{
+#toggle-btn:checked~.side-menu{
    
-//     left: 0px;
-//     background-color: green;
-// }
+    left: 0px;
+    background-color: green;
+}
