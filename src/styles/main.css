@@ -59,19 +59,19 @@ form input[type=text] {
   width: 500px;
   padding: 3px 9px;
   border-radius: 0.7rem 0 0 0.7rem;
-  background-color: rgba(255, 255, 255, 0.839);
-  border: 1px solid rgba(255, 255, 255, 0.839);
+  background-color: rgb(15, 15, 15);
+  border: 1px solid rgb(15, 15, 15);
 }
 form input[type=button] {
   padding: 3px 9px;
   border-radius: 0 0.7rem 0.7rem 0;
-  border: 1px solid rgba(255, 255, 255, 0.839);
-  background-color: rgba(255, 255, 255, 0.839);
+  border: 1px solid rgb(15, 15, 15);
+  background-color: rgb(15, 15, 15);
 }
 form .mic {
   width: 1rem;
   height: 1rem;
-  background-color: rgb(33, 33, 33);
+  background-color: rgb(15, 15, 15);
 }
 
 .icon-bar-nav {
