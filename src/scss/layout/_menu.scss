@@ -5,11 +5,12 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 
   
   nav{
     width: 100%;
-    height: 5vh;
+    
   }  
 
   .youtube {
@@ -22,30 +23,34 @@ header {
     
    
     .logo {
-      width: 10%;
+      width: 100px;
+     
+     
       img{
        position: absolute;
        left:5%;
        width: 100px;
     
       }
-    
+    }
 // Funktioniert nicht
     .hamburger {
         
       width: 25px;
-      height: 25px;
-      position: absolute;   
-      left: 200px;
-      border: 2px solid red;
-      
+      height: 30px;
+      position: relative;
+      top: 18px;
+      left: 10px;
+      // position: relative;   
+      // left: 200px;
+     
       
       
       div {
         background-color: white;
         width: 1rem;
-        height: 0.1rem;
-        margin: 0.1rem;
+        height: 0.2rem;
+        margin: 0.2rem;
        
 
         input [type="checkbox"]{
@@ -54,30 +59,31 @@ header {
   
       }
     }
-      
-    
-    }
+     }
   }
+
   form {
     width: 30%;
     display: flex;
     position: absolute;
-    left:50%;
+    left:40%;
     input[type="text"] {
+      width: 500px;
       padding: 3px 9px;
       border-radius: 0.7rem 0 0 0.7rem;
-      background-color: black;
-      border: 1px solid rgba(0, 0, 0, 0.839);
+      background-color: $youtube-white;
+      border: 1px solid $youtube-white;
     }
     input[type="button"] {
       padding: 3px 9px;
       border-radius: 0 0.7rem 0.7rem 0;
-      border: 1px solid rgba(0, 0, 0, 0.839);
-      background-color: rgba(0, 0, 0, 0.839);
+      border: 1px solid $youtube-white;
+      background-color: $youtube-white;
     }
     .mic {
       width: 1rem;
       height: 1rem;
+      background-color: $youtube-light-black;
      
     }
   }
@@ -104,7 +110,7 @@ header {
      }
     }
   
- }     
+      
  
 
   // .user-info {
