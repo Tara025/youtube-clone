@@ -40,10 +40,9 @@ main {
   }
  
   .column {
-    width: 20%;
+    width: 250px;
     height:auto;
     display: flex;
-   
     flex-flow: wrap;
     position: relative;
     left: 10px;
@@ -53,6 +52,7 @@ main {
     img {
       width: 250px;
       height: 150px;
+      border: 1px solid $youtube-white;
      }
   
     h6 { 
